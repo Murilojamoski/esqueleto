@@ -1,0 +1,129 @@
+/*==================================== 
+NAV 
+=====================================*/
+
+nav {
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 10px 30px 10px 20px;
+    ;
+}
+
+nav p {
+    margin: 10px 10px 10px -20px;
+}
+
+nav a {
+    color: #553C16;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+/*==================================== 
+banner
+=====================================*/
+section.banner ul {
+    display: flex;
+}
+
+section.banner h2 {
+    margin: 10vw 0px 0 0;
+    font-size: 3.5vw;
+    font-weight: 400;
+    border-bottom: #DEDEDE solid 1px;
+    padding-bottom: 2vw;
+}
+
+section.banner p.sub {
+    color: #404852;
+    margin: 3vw 0 0 0;
+    font-size: 1.5vw;
+}
+
+img.pessoa {
+    border-radius: 50vw;
+    margin: 5vw 20vw 0 0
+}
+
+section.banner div.perfil img {
+    border-radius: 2vw;
+    height: 4vw;
+}
+
+section.banner div.perfil p.P {
+    font-weight: bold;
+    color: #273240;
+    margin: 10px 10px 10px;
+}
+
+section.banner div.perfil p {
+    font-size: 1vw;
+    color: #2C3A4B;
+    margin-left: 10px;
+}
+
+section.banner div.perfil {
+    margin: 3vw 1vw;
+}
+
+section{
+    border-bottom: #9E9B9B solid 1px;
+    padding-bottom: 10vw;
+}
+
+/*==================================== 
+segunda
+=====================================*/
+
+
+section.segunda ul {
+    display: flex; justify-content: space-between;
+}
+
+section.segunda li{
+    margin-top: 10vw;
+}
+
+section.segunda h2 {
+    margin:  0px 0 0;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+section.segunda ul:last-child span {
+    opacity: 40%;
+}
+
+section.segunda ul:last-child h3 {
+    font-weight: 400;
+    font-size: 3vw;
+}
+section.segunda p.paragrafo {
+    opacity: 100%;
+    font-size: 1vw;
+    color: #404852;
+    border:  none;
+    margin: 2vw 1vw 2vw ;
+
+}
+section.segunda p{
+    opacity: 30%;
+    margin: 2vw 1vw 2vw ;
+    font-size: 1.2vw;
+    padding: 0 0 2vw;
+    border-bottom: solid 1px ;
+}
+
+/*==================================== 
+footer
+=====================================*/
+
+footer{display: flex; justify-content:  space-evenly; margin: 20px;}
